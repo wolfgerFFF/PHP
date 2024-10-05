@@ -32,7 +32,6 @@ function translate($string, $alfabet) {
     		else{
     			$newLetter = ucfirst($alfabet[mb_strtolower($letter)]);
     		}
-    		
     	}
     	
     	else{
@@ -42,6 +41,4 @@ function translate($string, $alfabet) {
     }
     return $result;
 }
-
-
 echo "Итоговая строка: " . translate($string, $alfabet);
